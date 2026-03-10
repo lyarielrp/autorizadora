@@ -143,9 +143,9 @@ namespace autorizadora_producer.services
                     ProcessIsoMessages(message);
 
                     // Opcional: enviar respuesta
-                    // string response = $"ACK: {DateTime.Now:HH:mm:ss}";
-                    // byte[] responseData = Encoding.UTF8.GetBytes(response);
-                    // await clientSocket.SendAsync(responseData, SocketFlags.None);
+                    string response = $"ACK: {DateTime.Now:HH:mm:ss}";
+                    byte[] responseData = Encoding.UTF8.GetBytes(response);
+                    await clientSocket.SendAsync(responseData, SocketFlags.None);
                 }
             }
             catch (SocketException ex)

@@ -7,7 +7,18 @@
     "**/obj",
     "**/platforms"
   ],
-  
+  "Mess0800": {
+    "X_BITMATPR": "0800"
+  },
+
+  "Mess0810": {
+    "X_BITMATPR": "0810",
+    "X_TDT": "default",
+    "X_SYSTRACE": "default",
+    "X_RESPCODE": "00",
+    "X_NETWINCO": "default",
+    "X_REINSCOD": "default"
+  },
 
   "Mess0200930000": {
     "X_BITMATPR": "0200",
@@ -313,6 +324,42 @@
     "X_ADDPRIVA": "NADA",
     "X_MAC2": "C2D56C76",
     "X_RESPCODE": "SSP"
-  }
+  },
 
+"Mess0312DelBanco": {
+    "X_BITMATPR": "0312",
+    "X_RESPCODE":"SSP",
+    "X_AUITDRES":"SSP",
+    "X_PAN":"default",
+    "X_TDT":"default",
+    "X_SYSTRACE":"default",
+    "X_FOINCODE":"default",
+    "X_ADDPRIVA":"default",
+    "X_FILEUPDA":"default",
+    "X_ACTIONCODE":"default",
+    "X_MAC2":"default"
+  },  
+  "Mess0312DeREDSA": {
+    "X_BITMATPR": "0312",
+    "parametrosSP": ["X_PAN","X_TDT","X_SYSTRACE","X_RESPCODE","X_ADDPRIVA","ACTIONCODE","X_FILENAME"]
+  },
+  "Mess0302DeREDSA": {
+    "X_BITMATPR": "0302",    
+    "parametrosSP": ["X_PAN","X_ADDPRIVA","X_FILENAME","X_ACTIONCODE"]
+  }, 
+  "Mess0302DelBANCO": {
+    "X_BITMATPR": "0302",
+    "WMED_SWITC":"T",    
+    "WDIR_SWITC":"192.168.126.112",
+    "WLONG_MAX":"32768",
+    "parametrosSP": ["MENSAJE"]
+  },
+  "Mess0302DelBANCOParaREDSA": {
+    "X_BITMATPR": "0302",
+    "WMED_SWITC":"default",    
+    "WDIR_SWITC":"default",
+    "MENSAJE":"SSP",
+    "WLONG_MAX":"default",
+    "X_RESPCODE":"SSP"
+  }
 }
