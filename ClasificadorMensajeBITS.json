@@ -1,0 +1,318 @@
+{
+  "exclude": [
+    "**/bin",
+    "**/bower_components",
+    "**/jspm_packages",
+    "**/node_modules",
+    "**/obj",
+    "**/platforms"
+  ],
+  
+
+  "Mess0200930000": {
+    "X_BITMATPR": "0200",
+    "X_PRCODE": "930000",
+    "parametrosSP": [ "X_PAN"]
+  },
+
+  "Mess0210930000": {
+    "X_BITMATPR": "0210",
+    "X_PRCODE": "930000",
+    "X_TDT": "default",
+    "X_SYSTRACE": "default",
+    "X_REINSCOD": "default",
+    "X_PRIVUSE2": "SSP",
+    "X_PAN": "default",
+    "X_AMOUNTRA": "default",
+    "X_RATECARD": "60000000",
+    "X_TIMELOCA": "default",
+    "X_DATELOCA": "default",
+    "X_DATECAPT": "default",
+    "X_ACINCODE": "default",
+    "X_FOINCODE": "default",
+    "X_RETRENUM": "default",
+    "X_ADDRESDA": "NADA",
+    "X_ADDPRIVA": "NADA",
+    "X_MAC2": "C2D56C76",
+    "X_RESPCODE": "SSP"
+
+  },
+
+  "Mess0200491030": {
+    "X_BITMATPR": "0200",
+    "X_PRCODE": "491030",
+    "parametrosSP": ["X_PAN", "X_AMOUNTRA", "X_CURRCODE", "X_ACCOIDE1", "X_ACCOIDE2"]
+  },
+
+  "Mess0210491030": {
+    "X_BITMATPR": "0210",
+    "X_PAN": "default",
+    "X_PRCODE": "491030",
+    "X_TDT": "default",
+    "X_RATECARD": "60000000",
+    "X_SYSTRACE": "default",
+    "X_TIMELOCA": "default",
+    "X_DATELOCA": "default",
+    "X_DATECAPT": "default",
+    "X_ACINCODE": "default",
+    "X_FOINCODE": "default",
+    "X_RETRENUM": "default",
+    "X_RESPCODE": "SSP",
+    "X_ADDRESDA": "NADA",
+    "X_ADDPRIVA": "NADA",
+    "X_REINSCOD": "default",
+    "X_PRIVUSE2": "SSP",
+    "X_MAC2": "DA316BD8"
+  },
+
+  "Mess0200491020": {
+    "X_BITMATPR": "0200",
+    "X_PRCODE": "491020",
+    "parametrosSP": ["X_PAN", "X_AMOUNTRA", "X_CURRCODE", "X_ACCOIDE1", "X_ACCOIDE2"]
+  },
+
+  "Mess0210491020": {
+    "X_BITMATPR": "0210",
+    "X_PAN": "default",
+    "X_PRCODE": "491030",
+    "X_TDT": "default",
+    "X_RATECARD": "60000000",
+    "X_SYSTRACE": "default",
+    "X_TIMELOCA": "default",
+    "X_DATELOCA": "default",
+    "X_DATECAPT": "default",
+    "X_ACINCODE": "default",
+    "X_FOINCODE": "default",
+    "X_RETRENUM": "default",
+    "X_RESPCODE": "SSP",
+    "X_ADDRESDA": "NADA",
+    "X_ADDPRIVA": "NADA",
+    "X_REINSCOD": "default",
+    "X_PRIVUSE2": "SSP",
+    "X_MAC2": "DA316BD8"
+  },
+  
+  "Mess0200491002": {
+    "X_BITMATPR": "0200",
+    "X_PRCODE": "491002",
+    "parametrosSP": ["X_PAN", "X_AMOUNTRA", "X_CURRCODE", "X_ACCOIDE1", "X_ACCOIDE2"]
+  },
+
+  "Mess0210491002": {
+    "X_BITMATPR": "0210",
+    "X_PAN": "default",
+    "X_PRCODE": "491002",
+    "X_TDT": "default",
+    "X_RATECARD": "60000000",
+    "X_SYSTRACE": "default",
+    "X_TIMELOCA": "default",
+    "X_DATELOCA": "default",
+    "X_DATECAPT": "default",
+    "X_ACINCODE": "default",
+    "X_FOINCODE": "default",
+    "X_RETRENUM": "default",
+    "X_RESPCODE": "SSP",
+    "X_ADDRESDA": "NADA",
+    "X_ADDPRIVA": "NADA",
+    "X_REINSCOD": "default",
+    "X_PRIVUSE2": "SSP",
+    "X_MAC2": "DA316BD8"
+  },
+
+  "Mess0200011001": {
+    "X_BITMATPR": "0200",
+    "X_PRCODE": "011001",
+    "parametrosSP": [ "X_PAN", "X_AMOUNTRA", "X_CURRCODE"]
+  },
+
+  "Mess0210011001": {
+    "X_BITMATPR": "0210",
+    "X_PAN":"default",
+    "X_PRCODE":"011001",
+    "X_AMOUNTRA":"default",
+    "X_TDT":"default",
+    "X_RATECARD":"61000000",
+    "X_SYSTRACE":"default",
+    "X_TIMELOCA":"default",
+    "X_DATELOCA":"default",
+    "X_DATECAPT":"default",
+    "X_ACINCODE":"default",
+    "X_FOINCODE":"default",
+    "X_RETRENUM":"default",
+    "X_RESPCODE":"SSP",
+    "X_ADDRESDA":"NADA",
+    "X_ADDPRIVA":"NADA",
+    "X_REINSCOD":"default",
+    "X_PRIVUSE2":"SSP",
+    "X_MAC2":"8F000905"
+},
+
+"Mess0200010000": {
+    "X_BITMATPR": "0200",
+    "X_PRCODE": "010000",
+    "parametrosSP": [ "X_PAN", "X_AMOUNTRA", "X_CURRCODE"]
+  },
+
+  "Mess0210010000": {
+    "X_BITMATPR": "0210",
+    "X_PAN":"default",
+    "X_PRCODE":"010000",
+    "X_AMOUNTRA":"default",
+    "X_TDT":"default",
+    "X_RATECARD":"61000000",
+    "X_SYSTRACE":"default",
+    "X_TIMELOCA":"default",
+    "X_DATELOCA":"default",
+    "X_DATECAPT":"default",
+    "X_ACINCODE":"default",
+    "X_FOINCODE":"default",
+    "X_RETRENUM":"default",
+    "X_RESPCODE":"SSP",
+    "X_ADDRESDA":"NADA",
+    "X_ADDPRIVA":"NADA",
+    "X_REINSCOD":"default",
+    "X_PRIVUSE2":"SSP",
+    "X_MAC2":"8F000905"
+},
+
+"Mess0200011050": {
+    "X_BITMATPR": "0200",
+    "X_PRCODE": "011050",
+    "parametrosSP": [ "X_PAN", "X_AMOUNTRA", "X_CURRCODE"]
+  },
+
+  "Mess0210011050": {
+    "X_BITMATPR": "0210",
+    "X_PAN":"default",
+    "X_PRCODE":"011050",
+    "X_AMOUNTRA":"default",
+    "X_TDT":"default",
+    "X_RATECARD":"61000000",
+    "X_SYSTRACE":"default",
+    "X_TIMELOCA":"default",
+    "X_DATELOCA":"default",
+    "X_DATECAPT":"default",
+    "X_ACINCODE":"default",
+    "X_FOINCODE":"default",
+    "X_RETRENUM":"default",
+    "X_RESPCODE":"SSP",
+    "X_ADDRESDA":"NADA",
+    "X_ADDPRIVA":"NADA",
+    "X_REINSCOD":"default",
+    "X_PRIVUSE2":"SSP",
+    "X_MAC2":"8F000905"
+},
+
+"Mess0200010050": {
+    "X_BITMATPR": "0200",
+    "X_PRCODE": "010050",
+    "parametrosSP": [ "X_PAN", "X_AMOUNTRA", "X_CURRCODE"]
+  },
+
+  "Mess0210010050": {
+    "X_BITMATPR": "0210",
+    "X_PAN":"default",
+    "X_PRCODE":"010050",
+    "X_AMOUNTRA":"default",
+    "X_TDT":"default",
+    "X_RATECARD":"61000000",
+    "X_SYSTRACE":"default",
+    "X_TIMELOCA":"default",
+    "X_DATELOCA":"default",
+    "X_DATECAPT":"default",
+    "X_ACINCODE":"default",
+    "X_FOINCODE":"default",
+    "X_RETRENUM":"default",
+    "X_RESPCODE":"SSP",
+    "X_ADDRESDA":"NADA",
+    "X_ADDPRIVA":"NADA",
+    "X_REINSCOD":"default",
+    "X_PRIVUSE2":"SSP",
+    "X_MAC2":"8F000905"
+},
+
+"Mess0200011052": {
+    "X_BITMATPR": "0200",
+    "X_PRCODE": "011052",
+    "parametrosSP": [ "X_PAN", "X_AMOUNTRA", "X_CURRCODE"]
+  },
+
+  "Mess0210011052": {
+    "X_BITMATPR": "0210",
+    "X_PAN":"default",
+    "X_PRCODE":"011052",
+    "X_AMOUNTRA":"default",
+    "X_TDT":"default",
+    "X_RATECARD":"61000000",
+    "X_SYSTRACE":"default",
+    "X_TIMELOCA":"default",
+    "X_DATELOCA":"default",
+    "X_DATECAPT":"default",
+    "X_ACINCODE":"default",
+    "X_FOINCODE":"default",
+    "X_RETRENUM":"default",
+    "X_RESPCODE":"SSP",
+    "X_ADDRESDA":"NADA",
+    "X_ADDPRIVA":"NADA",
+    "X_REINSCOD":"default",
+    "X_PRIVUSE2":"SSP",
+    "X_MAC2":"8F000905"
+},
+
+  "Mess0200391000": {
+    "X_BITMATPR": "0200",
+    "X_PRCODE": "391000",
+    "parametrosSP": [ "X_PAN"]
+},
+
+  "Mess0210391000": {
+    "X_BITMATPR": "0210",
+    "X_PRCODE": "default",
+    "X_TDT": "default",
+    "X_SYSTRACE": "default",
+    "X_REINSCOD": "default",
+    "X_PRIVUSE2": "SSP",
+    "X_PAN": "default",
+    "X_AMOUNTRA": "default",
+    "X_RATECARD": "60000000",
+    "X_TIMELOCA": "default",
+    "X_DATELOCA": "default",
+    "X_DATECAPT": "default",
+    "X_ACINCODE": "default",
+    "X_FOINCODE": "default",
+    "X_RETRENUM": "default",
+    "X_ADDRESDA": "NADA",
+    "X_ADDPRIVA": "NADA",
+    "X_MAC2": "C2D56C76",
+    "X_RESPCODE": "SSP"
+  },
+  
+  "Mess0200390000": {
+    "X_BITMATPR": "0200",
+    "X_PRCODE": "390000",
+    "parametrosSP": [ "X_PAN"]
+  },
+
+  "Mess0210390000": {
+    "X_BITMATPR": "0210",
+    "X_PRCODE": "default",
+    "X_TDT": "default",
+    "X_SYSTRACE": "default",
+    "X_REINSCOD": "default",
+    "X_PRIVUSE2": "SSP",
+    "X_PAN": "default",
+    "X_AMOUNTRA": "default",
+    "X_RATECARD": "60000000",
+    "X_TIMELOCA": "default",
+    "X_DATELOCA": "default",
+    "X_DATECAPT": "default",
+    "X_ACINCODE": "default",
+    "X_FOINCODE": "default",
+    "X_RETRENUM": "default",
+    "X_ADDRESDA": "NADA",
+    "X_ADDPRIVA": "NADA",
+    "X_MAC2": "C2D56C76",
+    "X_RESPCODE": "SSP"
+  }
+
+}

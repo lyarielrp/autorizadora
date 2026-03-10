@@ -1,0 +1,25 @@
+version: "3.7"
+services: 
+  worker_autorizadora:
+    image: "172.22.227.36:53003/bandec/worker_autorizadora:1.0.1"
+    container_name: "worker_autorizadora"
+    restart: always
+    environment:
+      - RABBITMQ_HOST=172.22.227.45
+      - RABBITMQ_PORT=8888
+      - RABBITMQ_VIRTUALHOST=TEST
+      - RABBITMQ_USERNAME=coremaster
+      - RABBITMQ_PASSWORD=coremaster
+      - SOCKET_PORT=10070
+      - QUEUE_NAME=q.responses.authorize_messages.BB06
+      - EXCHANGE_NAME=socket_authorize
+      - RABBITMQ=amqp://coremaster:coremaster@172.22.227.45:8888/
+      - socket_authorize_ip=10.0.0.1
+      - socket_authorize_port=1234
+      - socket_authorize_ip_consumer=10.0.0.1
+      - socket_authorize_port_consumer=1234
+    networks:      
+      - traefik_proxy
+networks:
+  traefik_proxy:
+    external: true⏎

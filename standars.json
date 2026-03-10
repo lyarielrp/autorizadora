@@ -1,0 +1,1026 @@
+[
+	{
+		"BitNumber": "001",
+		"BitName": "BIT MAP PRIMARY",
+		"BitAttribute": "01",
+		"BitLength": 4,
+		"BitFormat": 0,
+		"BitVariable": "X_BITMATPR"
+	},
+	{
+		"BitNumber": "002",
+		"BitName": "PRIMARY ACCOUNT NUMBER",
+		"BitAttribute": "03",
+		"BitLength": 19,
+		"BitFormat": 5,
+		"BitVariable": "X_PAN"
+	},
+	{
+		"BitNumber": "003",
+		"BitName": "PROCESSING CODE",
+		"BitAttribute": "03",
+		"BitLength": 6,
+		"BitFormat": 0,
+		"BitVariable": "X_PRCODE"
+	},
+	{
+		"BitNumber": "004",
+		"BitName": "AMOUNT TRNSACTION",
+		"BitAttribute": "03",
+		"BitLength": 12,
+		"BitFormat": 0,
+		"BitVariable": "X_AMOUNTRA"
+	},
+	{
+		"BitNumber": "005",
+		"BitName": "AMOUNT SETTLEMENT",
+		"BitAttribute": "03",
+		"BitLength": 12,
+		"BitFormat": 0,
+		"BitVariable": "X_AMOUNTST"
+	},
+	{
+		"BitNumber": "006",
+		"BitName": "AMOUNT CARDHOLDER BILLING",
+		"BitAttribute": "03",
+		"BitLength": 12,
+		"BitFormat": 0,
+		"BitVariable": "X_AMOUNTCH"
+	},
+	{
+		"BitNumber": "007",
+		"BitName": "TRANSMISSION DATE AND TIME",
+		"BitAttribute": "03",
+		"BitLength": 10,
+		"BitFormat": 1,
+		"BitVariable": "X_TDT"
+	},
+	{
+		"BitNumber": "008",
+		"BitName": "AMOUNT CARDHOLDER BILLING FEE",
+		"BitAttribute": "03",
+		"BitLength": 8,
+		"BitFormat": 0,
+		"BitVariable": "X_AMOUNTFE"
+	},
+	{
+		"BitNumber": "009",
+		"BitName": "CONVERSION RATE SETTLEMENT",
+		"BitAttribute": "03",
+		"BitLength": 8,
+		"BitFormat": 0,
+		"BitVariable": "X_RATESETT"
+	},
+	{
+		"BitNumber": "010",
+		"BitName": "CONVERSION RATE CARDHOLDER BILLING",
+		"BitAttribute": "03",
+		"BitLength": 8,
+		"BitFormat": 0,
+		"BitVariable": "X_RATECARD"
+	},
+	{
+		"BitNumber": "011",
+		"BitName": "SYSTEMS TRACE AUDIT NUMBER",
+		"BitAttribute": "03",
+		"BitLength": 6,
+		"BitFormat": 0,
+		"BitVariable": "X_SYSTRACE"
+	},
+	{
+		"BitNumber": "012",
+		"BitName": "TIME LOCAL TRANSACTION",
+		"BitAttribute": "03",
+		"BitLength": 6,
+		"BitFormat": 2,
+		"BitVariable": "X_TIMELOCA"
+	},
+	{
+		"BitNumber": "013",
+		"BitName": "DATE LOCAL TRANSACTION",
+		"BitAttribute": "03",
+		"BitLength": 4,
+		"BitFormat": 3,
+		"BitVariable": "X_DATELOCA"
+	},
+	{
+		"BitNumber": "014",
+		"BitName": "DATE EXPIRATION",
+		"BitAttribute": "03",
+		"BitLength": 4,
+		"BitFormat": 4,
+		"BitVariable": "X_DATEXPIR"
+	},
+	{
+		"BitNumber": "015",
+		"BitName": "DATE SETTLEMENT",
+		"BitAttribute": "03",
+		"BitLength": 4,
+		"BitFormat": 3,
+		"BitVariable": "X_DATESETT"
+	},
+	{
+		"BitNumber": "016",
+		"BitName": "DATE CONVERSION",
+		"BitAttribute": "03",
+		"BitLength": 4,
+		"BitFormat": 3,
+		"BitVariable": "X_DATECONV"
+	},
+	{
+		"BitNumber": "017",
+		"BitName": "DATE CAPTURE",
+		"BitAttribute": "03",
+		"BitLength": 4,
+		"BitFormat": 3,
+		"BitVariable": "X_DATECAPT"
+	},
+	{
+		"BitNumber": "018",
+		"BitName": "MERCHANTS TYPE",
+		"BitAttribute": "03",
+		"BitLength": 4,
+		"BitFormat": 0,
+		"BitVariable": "X_MERCHANT"
+	},
+	{
+		"BitNumber": "019",
+		"BitName": "ACQUIRING INSTITUTION COUNTRY CODE",
+		"BitAttribute": "03",
+		"BitLength": 3,
+		"BitFormat": 0,
+		"BitVariable": "X_ACQCOUNT"
+	},
+	{
+		"BitNumber": "020",
+		"BitName": "PRIMARY ACCOUNT NUMBER EXTENDED COUNTRY CODE",
+		"BitAttribute": "03",
+		"BitLength": 3,
+		"BitFormat": 0,
+		"BitVariable": "X_COUNTRY"
+	},
+	{
+		"BitNumber": "021",
+		"BitName": "FORWARDING INSTITUTION COUNTRY CODE",
+		"BitAttribute": "03",
+		"BitLength": 3,
+		"BitFormat": 0,
+		"BitVariable": "X_FORWARDI"
+	},
+	{
+		"BitNumber": "022",
+		"BitName": "POINT OF SERVICE ENTRY MODE",
+		"BitAttribute": "03",
+		"BitLength": 3,
+		"BitFormat": 0,
+		"BitVariable": "X_POINSERV"
+	},
+	{
+		"BitNumber": "023",
+		"BitName": "CARD SEQUENCE NUMBER",
+		"BitAttribute": "03",
+		"BitLength": 3,
+		"BitFormat": 0,
+		"BitVariable": "X_CARDNUMB"
+	},
+	{
+		"BitNumber": "024",
+		"BitName": "NETWORK INTERNATIONAL IDENTIFIER",
+		"BitAttribute": "03",
+		"BitLength": 3,
+		"BitFormat": 0,
+		"BitVariable": "X_IDNETWOK"
+	},
+	{
+		"BitNumber": "025",
+		"BitName": "POINT OF SERVICE CONDITION CODE",
+		"BitAttribute": "03",
+		"BitLength": 2,
+		"BitFormat": 0,
+		"BitVariable": "X_PSERVICE"
+	},
+	{
+		"BitNumber": "026",
+		"BitName": "POINT OF SERVICE PIN CAPTURE CODE",
+		"BitAttribute": "03",
+		"BitLength": 2,
+		"BitFormat": 0,
+		"BitVariable": "X_PPINCAPT"
+	},
+	{
+		"BitNumber": "027",
+		"BitName": "AUTHORIZATION IDENTIFICATION RESPONSE LENGTH",
+		"BitAttribute": "03",
+		"BitLength": 1,
+		"BitFormat": 0,
+		"BitVariable": "X_IDAUTHOR"
+	},
+	{
+		"BitNumber": "028",
+		"BitName": "AMOUNT TRANSACTION FEE",
+		"BitAttribute": "09",
+		"BitLength": 8,
+		"BitFormat": 0,
+		"BitVariable": "X_AMTRFEE"
+	},
+	{
+		"BitNumber": "029",
+		"BitName": "AMOUNT SETTLEMENT FEE",
+		"BitAttribute": "09",
+		"BitLength": 8,
+		"BitFormat": 0,
+		"BitVariable": "X_AMSETFEE"
+	},
+	{
+		"BitNumber": "030",
+		"BitName": "AMOUNT TRANSACTION PROCESSING FEE",
+		"BitAttribute": "09",
+		"BitLength": 8,
+		"BitFormat": 0,
+		"BitVariable": "X_AMTRPRFE"
+	},
+	{
+		"BitNumber": "031",
+		"BitName": "AMOUNT SETTLEMENT PROCESSING FEE",
+		"BitAttribute": "09",
+		"BitLength": 8,
+		"BitFormat": 0,
+		"BitVariable": "X_AMSEPRFE"
+	},
+	{
+		"BitNumber": "032",
+		"BitName": "ACQUIRED INSTITUCION IDENTIFICATION CODE",
+		"BitAttribute": "03",
+		"BitLength": 11,
+		"BitFormat": 5,
+		"BitVariable": "X_ACINCODE"
+	},
+	{
+		"BitNumber": "033",
+		"BitName": "FORWARDING INSTITUTION IDENTIFICATION CODE",
+		"BitAttribute": "03",
+		"BitLength": 11,
+		"BitFormat": 5,
+		"BitVariable": "X_FOINCODE"
+	},
+	{
+		"BitNumber": "034",
+		"BitName": "PRIMARY ACCOUNT NUMBER EXTENDED",
+		"BitAttribute": "07",
+		"BitLength": 20,
+		"BitFormat": 5,
+		"BitVariable": "X_PANEXTEN"
+	},
+	{
+		"BitNumber": "035",
+		"BitName": "TRACK 2 DATA",
+		"BitAttribute": "10",
+		"BitLength": 37,
+		"BitFormat": 5,
+		"BitVariable": "X_TRACK2"
+	},
+	{
+		"BitNumber": "036",
+		"BitName": "TRACK 3 DATA",
+		"BitAttribute": "10",
+		"BitLength": 104,
+		"BitFormat": 6,
+		"BitVariable": "X_TRACK3"
+	},
+	{
+		"BitNumber": "037",
+		"BitName": "RETRIEVAL REFERENCE NUMBER",
+		"BitAttribute": "05",
+		"BitLength": 12,
+		"BitFormat": 0,
+		"BitVariable": "X_RETRENUM"
+	},
+	{
+		"BitNumber": "038",
+		"BitName": "AUTHORIZATION IDENTIFICATION RESPONSE",
+		"BitAttribute": "05",
+		"BitLength": 6,
+		"BitFormat": 0,
+		"BitVariable": "X_AUTIDRES"
+	},
+	{
+		"BitNumber": "039",
+		"BitName": "RESPONSE CODE",
+		"BitAttribute": "05",
+		"BitLength": 2,
+		"BitFormat": 0,
+		"BitVariable": "X_RESPCODE"
+	},
+	{
+		"BitNumber": "040",
+		"BitName": "SERVICE RESTRICTION CODE",
+		"BitAttribute": "05",
+		"BitLength": 3,
+		"BitFormat": 0,
+		"BitVariable": "X_SERESCOD"
+	},
+	{
+		"BitNumber": "041",
+		"BitName": "CARD ACCEPTOR TERMINAL IDENTIFICATION",
+		"BitAttribute": "08",
+		"BitLength": 8,
+		"BitFormat": 0,
+		"BitVariable": "X_IDCARTER"
+	},
+	{
+		"BitNumber": "042",
+		"BitName": "CARD ACCEPTOR IDENTIFICATION CODE",
+		"BitAttribute": "08",
+		"BitLength": 15,
+		"BitFormat": 0,
+		"BitVariable": "X_IDCARCOD"
+	},
+	{
+		"BitNumber": "043",
+		"BitName": "CARD ACCEPTOR LOCATION",
+		"BitAttribute": "08",
+		"BitLength": 40,
+		"BitFormat": 0,
+		"BitVariable": "X_CARDLOCA"
+	},
+	{
+		"BitNumber": "044",
+		"BitName": "ADDITIONAL RESPONSE DATA",
+		"BitAttribute": "08",
+		"BitLength": 25,
+		"BitFormat": 5,
+		"BitVariable": "X_ADDRESDA"
+	},
+	{
+		"BitNumber": "045",
+		"BitName": "TRACK 1 DATA",
+		"BitAttribute": "08",
+		"BitLength": 76,
+		"BitFormat": 5,
+		"BitVariable": "X_TRACK1"
+	},
+	{
+		"BitNumber": "046",
+		"BitName": "ADDITIONAL DATA ISO",
+		"BitAttribute": "08",
+		"BitLength": 100,
+		"BitFormat": 6,
+		"BitVariable": "X_ADDISO"
+	},
+	{
+		"BitNumber": "047",
+		"BitName": "ADDITIONAL DATA NATIONAL",
+		"BitAttribute": "08",
+		"BitLength": 100,
+		"BitFormat": 6,
+		"BitVariable": "X_ADDNATIO"
+	},
+	{
+		"BitNumber": "048",
+		"BitName": "ADDITIONAL DATA PRIVATE",
+		"BitAttribute": "08",
+		"BitLength": 999,
+		"BitFormat": 6,
+		"BitVariable": "X_ADDPRIVA"
+	},
+	{
+		"BitNumber": "049",
+		"BitName": "CURRENCY CODE TRANSACTION",
+		"BitAttribute": "05",
+		"BitLength": 3,
+		"BitFormat": 0,
+		"BitVariable": "X_CURRCODE"
+	},
+	{
+		"BitNumber": "050",
+		"BitName": "CURRENCY CODE SETTLEMENT",
+		"BitAttribute": "05",
+		"BitLength": 3,
+		"BitFormat": 0,
+		"BitVariable": "X_CURRSETT"
+	},
+	{
+		"BitNumber": "051",
+		"BitName": "CURRENCY CODE CARDHOLDER BILLING",
+		"BitAttribute": "05",
+		"BitLength": 3,
+		"BitFormat": 0,
+		"BitVariable": "X_CURRCARD"
+	},
+	{
+		"BitNumber": "052",
+		"BitName": "PIN DATA",
+		"BitAttribute": "01",
+		"BitLength": 16,
+		"BitFormat": 0,
+		"BitVariable": "X_PINDATA"
+	},
+	{
+		"BitNumber": "053",
+		"BitName": "SECURITY RELATED CONTROL INFORMATION",
+		"BitAttribute": "03",
+		"BitLength": 16,
+		"BitFormat": 0,
+		"BitVariable": "X_SECINFOR"
+	},
+	{
+		"BitNumber": "054",
+		"BitName": "ADDITIONAL AMOUNTS",
+		"BitAttribute": "05",
+		"BitLength": 120,
+		"BitFormat": 6,
+		"BitVariable": "X_ADAMOUNT"
+	},
+	{
+		"BitNumber": "055",
+		"BitName": "RESERVED ISO",
+		"BitAttribute": "08",
+		"BitLength": 999,
+		"BitFormat": 6,
+		"BitVariable": "X_RESEISO1"
+	},
+	{
+		"BitNumber": "056",
+		"BitName": "RESERVED ISO",
+		"BitAttribute": "08",
+		"BitLength": 999,
+		"BitFormat": 6,
+		"BitVariable": "X_RESEISO2"
+	},
+	{
+		"BitNumber": "057",
+		"BitName": "RESERVED NATIONAL",
+		"BitAttribute": "08",
+		"BitLength": 999,
+		"BitFormat": 6,
+		"BitVariable": "X_RESENAC1"
+	},
+	{
+		"BitNumber": "058",
+		"BitName": "RESERVED NATIONAL",
+		"BitAttribute": "08",
+		"BitLength": 999,
+		"BitFormat": 6,
+		"BitVariable": "X_RESENAC2"
+	},
+	{
+		"BitNumber": "059",
+		"BitName": "RESERVED NATIONAL",
+		"BitAttribute": "08",
+		"BitLength": 999,
+		"BitFormat": 6,
+		"BitVariable": "X_RESENAC3"
+	},
+	{
+		"BitNumber": "060",
+		"BitName": "RESERVED PRIVATE",
+		"BitAttribute": "08",
+		"BitLength": 999,
+		"BitFormat": 6,
+		"BitVariable": "X_RESEPRI1"
+	},
+	{
+		"BitNumber": "061",
+		"BitName": "RESERVED PRIVATE",
+		"BitAttribute": "08",
+		"BitLength": 999,
+		"BitFormat": 6,
+		"BitVariable": "X_RESEPRI2"
+	},
+	{
+		"BitNumber": "062",
+		"BitName": "RESERVED PRIVATE",
+		"BitAttribute": "08",
+		"BitLength": 999,
+		"BitFormat": 6,
+		"BitVariable": "X_RESEPRI3"
+	},
+	{
+		"BitNumber": "063",
+		"BitName": "RESERVED PRIVATE",
+		"BitAttribute": "08",
+		"BitLength": 999,
+		"BitFormat": 6,
+		"BitVariable": "X_RESEPRI4"
+	},
+	{
+		"BitNumber": "064",
+		"BitName": "MESSAGE AUTHENTICATION CODE FIELD (MAC)",
+		"BitAttribute": "01",
+		"BitLength": 16,
+		"BitFormat": 0,
+		"BitVariable": "X_MAC1"
+	},
+	{
+		"BitNumber": "065",
+		"BitName": "BIT MAP EXTENDED",
+		"BitAttribute": "01",
+		"BitLength": 4,
+		"BitFormat": 0,
+		"BitVariable": "X_BITMAPEX"
+	},
+	{
+		"BitNumber": "066",
+		"BitName": "SETTLEMENT CODE",
+		"BitAttribute": "03",
+		"BitLength": 1,
+		"BitFormat": 0,
+		"BitVariable": "X_SETTCODE"
+	},
+	{
+		"BitNumber": "067",
+		"BitName": "EXTENDED PAYMENT CODE",
+		"BitAttribute": "03",
+		"BitLength": 2,
+		"BitFormat": 0,
+		"BitVariable": "X_EXTPAYCO"
+	},
+	{
+		"BitNumber": "068",
+		"BitName": "RECEIVING INSTITUTION COUNTRY CODE",
+		"BitAttribute": "03",
+		"BitLength": 3,
+		"BitFormat": 0,
+		"BitVariable": "X_RECINSCO"
+	},
+	{
+		"BitNumber": "069",
+		"BitName": "SETTLEMENT INSTITUTION COUNTRY CODE",
+		"BitAttribute": "03",
+		"BitLength": 3,
+		"BitFormat": 0,
+		"BitVariable": "X_SETINSCO"
+	},
+	{
+		"BitNumber": "070",
+		"BitName": "NETWORK MANAGEMENT INFORMATION CODE",
+		"BitAttribute": "03",
+		"BitLength": 3,
+		"BitFormat": 0,
+		"BitVariable": "X_NETWINCO"
+	},
+	{
+		"BitNumber": "071",
+		"BitName": "MESSAGE NUMBER",
+		"BitAttribute": "03",
+		"BitLength": 4,
+		"BitFormat": 0,
+		"BitVariable": "X_MESSNUMB"
+	},
+	{
+		"BitNumber": "072",
+		"BitName": "MESSAGE NUMBER LAST",
+		"BitAttribute": "03",
+		"BitLength": 4,
+		"BitFormat": 0,
+		"BitVariable": "X_MESNULAS"
+	},
+	{
+		"BitNumber": "073",
+		"BitName": "DATE ACTION",
+		"BitAttribute": "03",
+		"BitLength": 6,
+		"BitFormat": 0,
+		"BitVariable": "X_DATEACTI"
+	},
+	{
+		"BitNumber": "074",
+		"BitName": "CREDITS NUMBER",
+		"BitAttribute": "03",
+		"BitLength": 10,
+		"BitFormat": 0,
+		"BitVariable": "X_CREDNUMB"
+	},
+	{
+		"BitNumber": "075",
+		"BitName": "CREDITS REVERSAL NUMBER",
+		"BitAttribute": "03",
+		"BitLength": 10,
+		"BitFormat": 0,
+		"BitVariable": "X_CREREVNU"
+	},
+	{
+		"BitNumber": "076",
+		"BitName": "DEBITS NUMBER",
+		"BitAttribute": "03",
+		"BitLength": 10,
+		"BitFormat": 0,
+		"BitVariable": "X_DEBINUMB"
+	},
+	{
+		"BitNumber": "077",
+		"BitName": "DEBITS REVERSAL NUMBER",
+		"BitAttribute": "03",
+		"BitLength": 10,
+		"BitFormat": 0,
+		"BitVariable": "X_DEBREVNU"
+	},
+	{
+		"BitNumber": "078",
+		"BitName": "TRANSFERS NUMBER",
+		"BitAttribute": "03",
+		"BitLength": 10,
+		"BitFormat": 0,
+		"BitVariable": "X_TRANSNUM"
+	},
+	{
+		"BitNumber": "079",
+		"BitName": "TRANSFERS REVERSAL NUMBER",
+		"BitAttribute": "03",
+		"BitLength": 10,
+		"BitFormat": 0,
+		"BitVariable": "X_TRAREVNU"
+	},
+	{
+		"BitNumber": "080",
+		"BitName": "INQUIRES NUMBER",
+		"BitAttribute": "03",
+		"BitLength": 10,
+		"BitFormat": 0,
+		"BitVariable": "X_INQNUMB"
+	},
+	{
+		"BitNumber": "081",
+		"BitName": "AUTHORIZATION NUMBER",
+		"BitAttribute": "03",
+		"BitLength": 10,
+		"BitFormat": 0,
+		"BitVariable": "X_AUTHONUM"
+	},
+	{
+		"BitNumber": "082",
+		"BitName": "CREDITS PROCESSING FEE AMOUNT",
+		"BitAttribute": "03",
+		"BitLength": 12,
+		"BitFormat": 0,
+		"BitVariable": "X_CREPROFE"
+	},
+	{
+		"BitNumber": "083",
+		"BitName": "CREDITS TRANSACTION FEE AMOUNT",
+		"BitAttribute": "03",
+		"BitLength": 12,
+		"BitFormat": 0,
+		"BitVariable": "X_CRETRAFE"
+	},
+	{
+		"BitNumber": "084",
+		"BitName": "DEBITS PROCESSING FEE AMOUNT",
+		"BitAttribute": "03",
+		"BitLength": 12,
+		"BitFormat": 0,
+		"BitVariable": "X_DEBPROFE"
+	},
+	{
+		"BitNumber": "085",
+		"BitName": "DEBITS TRANSACTION FEE AMOUNT",
+		"BitAttribute": "03",
+		"BitLength": 12,
+		"BitFormat": 0,
+		"BitVariable": "X_DEBTRAFE"
+	},
+	{
+		"BitNumber": "086",
+		"BitName": "CREDITS AMOUNT",
+		"BitAttribute": "03",
+		"BitLength": 16,
+		"BitFormat": 0,
+		"BitVariable": "X_CREDAMOU"
+	},
+	{
+		"BitNumber": "087",
+		"BitName": "CREDITS REVERSAL AMOUNT",
+		"BitAttribute": "03",
+		"BitLength": 16,
+		"BitFormat": 0,
+		"BitVariable": "X_CREDREVE"
+	},
+	{
+		"BitNumber": "088",
+		"BitName": "DEBITS AMOUNT",
+		"BitAttribute": "03",
+		"BitLength": 16,
+		"BitFormat": 0,
+		"BitVariable": "X_DEBIAMOU"
+	},
+	{
+		"BitNumber": "089",
+		"BitName": "DEBITS REVERSAL AMOUNT",
+		"BitAttribute": "03",
+		"BitLength": 16,
+		"BitFormat": 0,
+		"BitVariable": "X_DEBIREVE"
+	},
+	{
+		"BitNumber": "090",
+		"BitName": "ORIGINAL DATA ELEMENTS",
+		"BitAttribute": "03",
+		"BitLength": 42,
+		"BitFormat": 0,
+		"BitVariable": "X_ORGDATA"
+	},
+	{
+		"BitNumber": "091",
+		"BitName": "FILE UPDATE CODE",
+		"BitAttribute": "05",
+		"BitLength": 1,
+		"BitFormat": 0,
+		"BitVariable": "X_FILEUPDA"
+	},
+	{
+		"BitNumber": "092",
+		"BitName": "FILE SECURITY CODE",
+		"BitAttribute": "05",
+		"BitLength": 2,
+		"BitFormat": 0,
+		"BitVariable": "X_FILESECU"
+	},
+	{
+		"BitNumber": "093",
+		"BitName": "RESPONSE INDICATOR",
+		"BitAttribute": "05",
+		"BitLength": 6,
+		"BitFormat": 0,
+		"BitVariable": "X_RESPINDI"
+	},
+	{
+		"BitNumber": "094",
+		"BitName": "SERVICE INDICATOR",
+		"BitAttribute": "05",
+		"BitLength": 7,
+		"BitFormat": 0,
+		"BitVariable": "X_SERVINDI"
+	},
+	{
+		"BitNumber": "095",
+		"BitName": "REPLACEMENT AMOUNTS",
+		"BitAttribute": "03",
+		"BitLength": 42,
+		"BitFormat": 0,
+		"BitVariable": "X_REPLAMOU"
+	},
+	{
+		"BitNumber": "096",
+		"BitName": "MESSAGE SECURITY CODE",
+		"BitAttribute": "01",
+		"BitLength": 256,
+		"BitFormat": 0,
+		"BitVariable": "X_MESSSEGU"
+	},
+	{
+		"BitNumber": "097",
+		"BitName": "NET SETTLEMENT AMOUNT",
+		"BitAttribute": "09",
+		"BitLength": 16,
+		"BitFormat": 0,
+		"BitVariable": "X_NETSETTL"
+	},
+	{
+		"BitNumber": "098",
+		"BitName": "PAYEE",
+		"BitAttribute": "08",
+		"BitLength": 26,
+		"BitFormat": 0,
+		"BitVariable": "X_PAYEE"
+	},
+	{
+		"BitNumber": "099",
+		"BitName": "SETTLEMENT INSTITUTION IDENTIFICATION CODE",
+		"BitAttribute": "03",
+		"BitLength": 11,
+		"BitFormat": 5,
+		"BitVariable": "X_SEINSCOD"
+	},
+	{
+		"BitNumber": "100",
+		"BitName": "RECEIVING INSTITUTION IDENTIFICATION CODE",
+		"BitAttribute": "03",
+		"BitLength": 11,
+		"BitFormat": 5,
+		"BitVariable": "X_REINSCOD"
+	},
+	{
+		"BitNumber": "101",
+		"BitName": "FILE NAME",
+		"BitAttribute": "08",
+		"BitLength": 17,
+		"BitFormat": 5,
+		"BitVariable": "X_FILENAME"
+	},
+	{
+		"BitNumber": "102",
+		"BitName": "ACCOUNT IDENTIFICATION 1",
+		"BitAttribute": "08",
+		"BitLength": 28,
+		"BitFormat": 5,
+		"BitVariable": "X_ACCOIDE1"
+	},
+	{
+		"BitNumber": "103",
+		"BitName": "ACCOUNT IDENTIFICATION 2",
+		"BitAttribute": "08",
+		"BitLength": 28,
+		"BitFormat": 5,
+		"BitVariable": "X_ACCOIDE2"
+	},
+	{
+		"BitNumber": "104",
+		"BitName": "TRANSACTION DESCRIPTION",
+		"BitAttribute": "08",
+		"BitLength": 100,
+		"BitFormat": 6,
+		"BitVariable": "X_TRANDESC"
+	},
+	{
+		"BitNumber": "105",
+		"BitName": "RESERVED FOR ISO USE",
+		"BitAttribute": "08",
+		"BitLength": 999,
+		"BitFormat": 6,
+		"BitVariable": "X_ISOUSE1"
+	},
+	{
+		"BitNumber": "106",
+		"BitName": "RESERVED FOR ISO USE",
+		"BitAttribute": "08",
+		"BitLength": 999,
+		"BitFormat": 6,
+		"BitVariable": "X_ISOUSE1"
+	},
+	{
+		"BitNumber": "107",
+		"BitName": "RESERVED FOR ISO USE",
+		"BitAttribute": "08",
+		"BitLength": 999,
+		"BitFormat": 6,
+		"BitVariable": "X_ISOUSE2"
+	},
+	{
+		"BitNumber": "108",
+		"BitName": "RESERVED FOR ISO USE",
+		"BitAttribute": "08",
+		"BitLength": 999,
+		"BitFormat": 6,
+		"BitVariable": "X_ISOUSE3"
+	},
+	{
+		"BitNumber": "109",
+		"BitName": "RESERVED FOR ISO USE",
+		"BitAttribute": "08",
+		"BitLength": 999,
+		"BitFormat": 6,
+		"BitVariable": "X_ISOUSE4"
+	},
+	{
+		"BitNumber": "110",
+		"BitName": "RESERVED FOR ISO USE",
+		"BitAttribute": "08",
+		"BitLength": 999,
+		"BitFormat": 6,
+		"BitVariable": "X_ISOUSE5"
+	},
+	{
+		"BitNumber": "111",
+		"BitName": "RESERVED FOR ISO USE",
+		"BitAttribute": "08",
+		"BitLength": 999,
+		"BitFormat": 6,
+		"BitVariable": "X_ISOUSE6"
+	},
+	{
+		"BitNumber": "112",
+		"BitName": "RESERVED FOR NATIONAL USE",
+		"BitAttribute": "08",
+		"BitLength": 999,
+		"BitFormat": 6,
+		"BitVariable": "X_NATUSE1"
+	},
+	{
+		"BitNumber": "113",
+		"BitName": "RESERVED FOR NATIONAL USE",
+		"BitAttribute": "08",
+		"BitLength": 999,
+		"BitFormat": 6,
+		"BitVariable": "X_NATUSE2"
+	},
+	{
+		"BitNumber": "114",
+		"BitName": "RESERVED FOR NATIONAL USE",
+		"BitAttribute": "08",
+		"BitLength": 999,
+		"BitFormat": 6,
+		"BitVariable": "X_NATUSE3"
+	},
+	{
+		"BitNumber": "115",
+		"BitName": "RESERVED FOR NATIONAL USE",
+		"BitAttribute": "08",
+		"BitLength": 999,
+		"BitFormat": 6,
+		"BitVariable": "X_NATUSE4"
+	},
+	{
+		"BitNumber": "116",
+		"BitName": "RESERVED FOR NATIONAL USE",
+		"BitAttribute": "08",
+		"BitLength": 999,
+		"BitFormat": 6,
+		"BitVariable": "X_NATUSE5"
+	},
+	{
+		"BitNumber": "117",
+		"BitName": "RESERVED FOR NATIONAL USE",
+		"BitAttribute": "08",
+		"BitLength": 999,
+		"BitFormat": 6,
+		"BitVariable": "X_NATUSE6"
+	},
+	{
+		"BitNumber": "118",
+		"BitName": "RESERVED FOR NATIONAL USE",
+		"BitAttribute": "08",
+		"BitLength": 999,
+		"BitFormat": 6,
+		"BitVariable": "X_NATUSE7"
+	},
+	{
+		"BitNumber": "119",
+		"BitName": "RESERVED FOR NATIONAL USE",
+		"BitAttribute": "08",
+		"BitLength": 999,
+		"BitFormat": 6,
+		"BitVariable": "X_NATUSE8"
+	},
+	{
+		"BitNumber": "120",
+		"BitName": "RESERVED FOR PRIVATE  USE",
+		"BitAttribute": "08",
+		"BitLength": 999,
+		"BitFormat": 6,
+		"BitVariable": "X_PRIVUSE1"
+	},
+	{
+		"BitNumber": "121",
+		"BitName": "RESERVED FOR PRIVATE  USE",
+		"BitAttribute": "08",
+		"BitLength": 999,
+		"BitFormat": 6,
+		"BitVariable": "X_PRIVUSE2"
+	},
+	{
+		"BitNumber": "122",
+		"BitName": "RESERVED FOR PRIVATE  USE",
+		"BitAttribute": "08",
+		"BitLength": 999,
+		"BitFormat": 6,
+		"BitVariable": "X_PRIVUSE3"
+	},
+	{
+		"BitNumber": "123",
+		"BitName": "RESERVED FOR PRIVATE  USE",
+		"BitAttribute": "08",
+		"BitLength": 999,
+		"BitFormat": 6,
+		"BitVariable": "X_PRIVUSE4"
+	},
+	{
+		"BitNumber": "124",
+		"BitName": "RESERVED FOR PRIVATE  USE",
+		"BitAttribute": "08",
+		"BitLength": 999,
+		"BitFormat": 6,
+		"BitVariable": "X_PRIVUSE5"
+	},
+	{
+		"BitNumber": "125",
+		"BitName": "RESERVED FOR PRIVATE  USE",
+		"BitAttribute": "08",
+		"BitLength": 999,
+		"BitFormat": 6,
+		"BitVariable": "X_PRIVUSE6"
+	},
+	{
+		"BitNumber": "126",
+		"BitName": "RESERVED FOR PRIVATE  USE",
+		"BitAttribute": "08",
+		"BitLength": 999,
+		"BitFormat": 6,
+		"BitVariable": "X_PRIVUSE7"
+	},
+	{
+		"BitNumber": "127",
+		"BitName": "RESERVED FOR PRIVATE  USE",
+		"BitAttribute": "08",
+		"BitLength": 999,
+		"BitFormat": 6,
+		"BitVariable": "X_PRIVUSE8"
+	},
+	{
+		"BitNumber": "128",
+		"BitName": "MESSAGE AUTHENTICATION CODE FIELD (MAC)",
+		"BitAttribute": "01",
+		"BitLength": 8,
+		"BitFormat": 0,
+		"BitVariable": "X_MAC2"
+	}
+]
